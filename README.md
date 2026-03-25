@@ -31,7 +31,7 @@ dataset
 
 # Training
 
-Most of training configurations can be changed in the "Train settings" section of `ultralytics/cfg/LSENet.yaml`.
+Most of training configurations can be changed in the "Train settings" section of `ultralytics/cfg/models/hyper-yolo/LSENet.yaml`.
 The key factors are model, data, img, epochs, batch, device and training hyperparameters.
 
 ```bash
