@@ -31,11 +31,11 @@ dataset
 
 # Training
 
-Most of training configurations can be changed in the "Train settings" section of `ultralytics/cfg/default.yaml`.
+Most of training configurations can be changed in the "Train settings" section of `ultralytics/cfg/LSENet.yaml`.
 The key factors are model, data, img, epochs, batch, device and training hyperparameters.
 
 ```bash
-python ultralytics/models/yolo/detect/train.py
+python train.py
 ```
 
 # Evaluation
@@ -43,5 +43,5 @@ python ultralytics/models/yolo/detect/train.py
 Most of evaluation configurations can be changed in the "Val/Test settings" section of `ultralytics/cfg/default.yaml`.
 
 ```bash
-python ultralytics/models/yolo/detect/val.py
+python val.py
 ```
