@@ -24,9 +24,11 @@ dataset
 --images
   --train
   --val
+  --test
 --labels
   --train
   --val
+  --test
 ```
 
 # Training
